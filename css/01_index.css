@@ -1,0 +1,614 @@
+/* TODO : 머리말 */
+#page {
+  width: 99vw;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+}
+.brand img {
+  float: left;
+  width: 40%;
+  margin: 20px 10px 10px 0;
+}
+.menu {
+  float: right;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li img {
+  width: 30px;
+  margin: 30px 0 10px 10px;
+}
+
+.Mobile-box img {
+  width: 100%;
+  vertical-align: bottom;
+  position: relative;
+}
+.Tablets-box {
+  display: none;
+}
+.swiper img {
+  width: 100%;
+  height: 22vh;
+  position: relative;
+  vertical-align: bottom;
+}
+.main_image_text a {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-family: "Noto Sans";
+  font-size: 1rem;
+}
+.swiper-button-next {
+  color: var(--gray);
+  font-weight: bold;
+}
+.swiper-button-prev {
+  color: var(--gray);
+  font-weight: bold;
+}
+/* TODO : 흘러가는 글씨 */
+.example {
+  width: 100%;
+  height: 10%;
+  background-color: var(--light--red);
+  border: 5px solid var(--light--red);
+}
+.marquee {
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 5s linear infinite;
+}
+.marquee span {
+  float: left;
+  width: 50%;
+  color: var(--white);
+  font-family: "Noto Sans KR";
+  font-weight: 500;
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+/* TODO : 본문 */
+.content-box p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Noto Sans";
+  margin: 30px 0 30px 0;
+}
+.group1 {
+  width: 100%;
+  height: 30vh;
+  background-image: url("../img/Best.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: bottom;
+  position: relative;
+  margin-bottom: 50px;
+}
+.best1 a {
+  position: absolute;
+  top: 90%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-family: "Noto Sans";
+  font-weight: 500;
+}
+.best2 a {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-family: "Noto Sans";
+  font-weight: 500;
+}
+.For {
+  display: none;
+}
+.week-box {
+  display: none;
+}
+.group2 {
+  width: 100vw;
+  height: 30vh;
+  background-image: url("../img/Woman.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+.women1 {
+  position: absolute;
+  top: 25%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-family: "Noto Sans";
+  font-weight: 500;
+}
+.women2 a {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: var(--pink);
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.group3 {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../img/Five\ pictures.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.NEWARRIVALS {
+  text-align: center;
+}
+#Petrol {
+  font-weight: 400;
+}
+#New {
+  color: var(--red);
+}
+#pink {
+  color: var(--pink);
+  font-weight: bold;
+}
+.group4 {
+  width: 100%;
+  height: 75vh;
+  background-image: url("../img/Man.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+.MEN1 {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-family: "Noto Sans";
+  font-weight: 500;
+}
+.MEN2 a {
+  position: absolute;
+  top: 95%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: var(--purple);
+  font-family: "Noto Sans";
+  font-weight: bold;
+  font-size: 2rem;
+}
+.group5 {
+  width: 100%;
+  height: 20vh;
+  background-image: url("../img/Accessories\ Edit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.group6 {
+  width: 100vw;
+  height: 30vh;
+  background-image: url("../img/2024.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: bottom;
+  position: relative;
+  margin-bottom: 50px;
+}
+.winter a {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--gray);
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+/* TODO : 꼬리말 */
+footer {
+  width: 100%;
+}
+.group7 {
+  border: 1px solid var(--light--blue);
+  width: 100%;
+  height: 35vh;
+  margin-bottom: 30px;
+  position: relative;
+}
+.group8 {
+  border: 1px solid var(--blue);
+  width: 95%;
+  height: 32vh;
+  position: absolute;
+  top: 4%;
+  left: 2.5%;
+}
+.PetrolService {
+  position: absolute;
+  top: 4%;
+  left: 20%;
+}
+.costomer {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+.costomer img {
+  width: 60%;
+  height: 60%;
+}
+.costomervoice {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.costomervoice img {
+  width: 60%;
+  height: 60%;
+}
+.ADDRESS {
+  position: absolute;
+  top: 31%;
+  left: 70%;
+}
+.ADDRESS img {
+  width: 110%;
+  height: 110%;
+}
+.Polygon1 {
+  position: absolute;
+  top: 50%;
+  left: 92%;
+}
+.Polygon1 img {
+  width: 80%;
+  height: 80%;
+}
+.Polygon2 {
+  position: absolute;
+  top: 60%;
+  left: 92%;
+}
+.Polygon2 img {
+  width: 80%;
+  height: 80%;
+}
+.Bank {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  font-weight: 500;
+}
+#account {
+  color: var(--light--red);
+}
+.Barcode {
+  position: absolute;
+  top: 70%;
+  left: 37%;
+}
+.Barcode img {
+  width: 30vw;
+  height: 8vh;
+}
+.KakaoTalk {
+  position: absolute;
+  top: 70%;
+  left: 72%;
+}
+.KakaoTalk img {
+  width: 13vw;
+  height: 8vh;
+}
+.Instagram {
+  position: absolute;
+  top: 77%;
+  left: 85%;
+}
+.Instagram img {
+  width: 15vw;
+  height: 6vh;
+}
+.Last {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+@media screen and (min-width: 540px) {
+  .group1 {
+    height: 50vh;
+  }
+  .ADDRESS img {
+    width: 80%;
+  }
+}
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) {
+  /* TODO : 머리말 */
+  .menu li img {
+    width: 50px;
+    margin: 60px 0 20px 20px;
+  }
+  .container {
+    width: 99vw;
+  }
+  /* TODO : 배너 */
+  .Mobile-box {
+    display: none;
+  }
+  .Tablets-box {
+    display: inline;
+  }
+  .Tablets-box img {
+    width: 100%;
+    height: 50vh;
+    vertical-align: bottom;
+    margin-bottom: -10px;
+  }
+  .swiper img {
+    height: 30vh;
+  }
+  .main_image_text a {
+    font-size: 2rem;
+  }
+  .marquee {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+   /* TODO : 본문 */
+  .group1 {
+    height: 50vh;
+  }
+  .best1 a {
+    font-size: 2rem;
+  }
+  .best2 a {
+    font-size: 2rem;
+  }
+  .For {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+  .week-box {
+    width: 100%;
+    height: 65vh;
+    display: block;
+  }
+  .week {
+    width: 25%;
+    float: left;
+    margin-bottom: 30px;
+  }
+  .week img {
+    max-width: 100%;
+    height: auto;
+  }
+  .week p {
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    font-family: "Noto Sans KR";
+    font-size: 1rem;
+  }
+  .group2 {
+    height: 50vh;
+    margin-bottom: 100px;
+  }
+  .women1 {
+    left: 10%;
+  }
+  .women1 img {
+    width: 150%;
+  }
+  .women2 a {
+    font-size: 3rem;
+  }
+  .group3 {
+    height: 70vh;
+    margin-bottom: 100px;
+  }
+  .NEWARRIVALS {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .group4 {
+    height: 110vh;
+    margin-bottom: 100px;
+  }
+  .MEN1 img {
+    width: 150%;
+  }
+  .MEN2 a {
+    left: 20%;
+    font-size: 3rem;
+  }
+  .group5 {
+    height: 30vh;
+    margin-bottom: 100px;
+  }
+  .group6 {
+    height: 40vh;
+    margin-bottom: 100px;
+  }
+  .winter a {
+    font-size: 2rem;
+  }
+   /* TODO : 꼬리말 */
+  .PetrolService {
+    left: 35%;
+  }
+  .costomervoice {
+    left: 40%;
+  }
+  .ADDRESS {
+    left: 80%;
+  }
+  .ADDRESS img {
+    width: 80%;
+    height: 80%;
+  }
+  .Bank {
+    font-size: 1rem;
+  }
+  .Barcode {
+    left: 35%;
+  }
+  .Last {
+    font-size: 1.5rem;
+  }
+}
+/* TODO: 태블릿 */
+@media screen and (min-width: 820px) {
+  .week-box {
+    height: 60vh;
+  }
+}
+/* TODO: PC */
+@media screen and (min-width: 1024px) {
+   /* TODO : 머리말 */
+  .menu li img {
+    margin: 100px 30px 10px 10px;
+  }
+   /* TODO : 배너 */
+  .Tablets-box img {
+    height: 100vh;
+  }
+  .swiper img {
+    height: 50vh;
+  }
+   /* TODO : 본문 */
+  .group1 {
+    height: 125vh;
+  }
+  .week-box {
+    height: 135vh;
+  }
+  .week {
+    display: block;
+    justify-items: center;
+    align-items: center;
+  }
+  .group2 {
+    height: 80vh;
+  }
+  .group3 {
+    height: 130vh;
+  }
+  .group4 {
+    height: 200vh;
+  }
+  .group5 {
+    height: 80vh;
+  }
+  .group6 {
+    height: 80vh;
+  }
+   /* TODO : 꼬리말 */
+  .group7 {
+    height: 55vh;
+  }
+  .group8 {
+    height: 50vh;
+  }
+  .PetrolService {
+    top: 10%;
+    left: 40%;
+  }
+  .costomer {
+    left: 5%;
+  }
+  .costomer img {
+    width: 80%;
+  }
+  .costomervoice {
+    top: 30%;
+    left: 40%;
+  }
+  .costomervoice img {
+    width: 80%;
+  }
+  .ADDRESS {
+    left: 80%;
+  }
+  .ADDRESS img {
+    width: 80%;
+    height: 110%;
+  }
+  .Bank {
+    font-size: 1rem;
+    top: 65%;
+  }
+  .Barcode {
+    top: 70%;
+    left: 37%;
+  }
+  .Barcode img {
+    width: 20vw;
+    height: 10vh;
+  }
+  .KakaoTalk {
+    top: 72%;
+    left: 72%;
+  }
+  .KakaoTalk img {
+    width: 8vw;
+    height: 10vh;
+  }
+  .Instagram {
+    top: 75%;
+    left: 85%;
+  }
+  .Instagram img {
+    width: 10vw;
+    height: 9vh;
+  }
+}
+/* TODO: PC */
+@media screen and (min-width: 1280px) {
+  .week-box {
+    height: 105vh;
+  }
+}
